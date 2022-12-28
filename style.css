@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+
+.navbar{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 0;
+    padding-left: 80px;
+}
+
+.navbar h2{
+    margin-left: 100px;
+}
+
+.navbar h2 span{
+    font-size: 0.5rem;
+    color: #ff795d;
+}
+
+.navbar ul{
+    display: flex;
+    padding-left: 500px;
+    text-align: right;
+}
+
+.navbar ul li{
+    padding: 6px;
+    margin: 5px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: #b0adad;
+}
+
+/* Home */
+
+.home{
+    display: flex;
+    padding-top: 70px;
+}
+
+.homeLeftSide{
+    width: 58%;
+}
+
+.homeLeftSidePara{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.homeBigPara{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.homeBigPara1{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homeSmallPara{
+    font-size: 1.2rem;
+    color: #817e7e;
+}
+
+.homeLeftSideButton{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.homeLeftSideButton a{
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.bookAcall{
+    color: white;
+    background-color: black;
+    box-shadow: 6px 5px 3px orange;
+}
+
+.downloadCv{
+    color: black;
+}
+
+
+/* Brand */
+
+.brandLogo p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.brandLogoImageDiv{
+    display: flex;
+    justify-content: center;
+}
+.brandLogoImageDiv img{
+    width: 140px;
+    padding: 12px 50px;
+    margin-bottom: 100px;
+}
+
+/* Services */
+
+.services{
+    margin-top: 40px;
+}
+
+.services h3{
+    text-align: center;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.services h2{
+    text-align: center;
+    font-size: 54px;
+}
+
+.servicesTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.servicesTable2{
+    margin-left: 110px;
+}
+
+.servicesTable3{
+    margin-left: 110px;
+}
+
+.servicesTablePara{
+    color: #817e7e;
+}
+
+.servicesTable h4{
+    margin-top: 12px;
+    font-size: 1.4rem;
+}
+
+.servicesTable h4,p{
+    margin-left: 10px;
+}
+
+.servicesTable p{
+    margin-top: 12px;
+}
+
+.servicesTable ul{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.servicesTable li{
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.servicesTable img{
+    width: 80px;
+}
+
+/* Projects */
+
+.project{
+    background: url("images/projectbg8.png");
+    background-repeat: repeat-x;
+    background-position: left;
+}
+.project h3{
+    background-image: linear-gradient(360deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.projectFirstPart{
+    display: flex;
+    margin-left: 150px;
+}
+
+.projectFirstPart h4{
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 330px;
+    margin-bottom: 80px;
+}
+
+.projectFirstPart button{
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 1.3rem;
+    padding: 5px;
+    box-shadow: 6px 5px 3px orange;
+    cursor: pointer;
+}
+
+.projectSecondPart{
+    display: flex;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    margin-left: 150px;
+}
+
+.projectSecondPart::-webkit-scrollbar{
+    width: 0;
+}
+
+.projectSecondPart img{
+    width: 470px;
+}
+
+.projectSecondPartCard{
+    margin-right: 20px;
+    background-color: white;
+}
+
+.projectSecondPartCard h3{
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+
+.projectSecondPartCardPara1{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+.projectSecondPartCardPara2{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.projectRightLeftButton{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.projectRightLeftButton button{
+    width: 4%;
+    font-size: 1.7rem;
+    margin: 4px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Blog */
+
+.blog{
+    background-color: black;
+    color: white;
+    height: 190vh;
+}
+
+.blog h3{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 162px;
+    padding-top: 80px;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blogMid{
+    width: 17%;
+}
+
+.blogLeft h2{
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.blogLeft p{
+    font-size: 1.2rem;
+}
+
+.blogPart1{
+    display: flex;
+    justify-content: center;
+}
+
+.blogRightHeading{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-weight: 300;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.blogRightHeading span{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.blogRightBody{
+    margin-top: 15px;
+    margin-bottom: 28px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.blogRightMore{
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+
+/* About */
+
+.about{
+    margin-top: 150px;
+}
+
+.aboutFirstPart{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutFirstPartLeft h3{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutFirstPartLeft h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.aboutFirstPartRight{
+    margin-left: 180px;
+}
+
+.aboutFirstPartRight p{
+    font-size: 1.2rem;
+    color: #817e7e;
+}
+
+.aboutImage{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutImage img{
+    width: 350px;
+    margin: 9px;
+}
+
+.aboutThirdPart{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutThirdPart1Heading, .aboutThirdPart2Heading{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.aboutThirdPart1Heading h4, .aboutThirdPart2Heading h4{
+    font-size: 36px;
+}
+
+.aboutThirdPart1, .aboutThirdPart2{
+    padding: 25px;
+}
+
+.aboutThirdPart1 span, .aboutThirdPart2 span{
+    color: #817e7e;
+}
+
+.aboutThirdPartLastPara{
+    margin-bottom: 25px;
+    color: #817e7e;
+}
+
+.aboutThirdPart1 h3, .aboutThirdPart2 h3{
+    font-size: 22px;
+}
+
+.aboutThirdPart2Body{
+    display: flex;
+}
+
+.aboutThirdPart2Body1 img{
+    width: 50px;
+}
+
+.aboutThirdPart2Body2 span, .aboutThirdPart h3 span{
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* Testimonial */
+
+.testimonial{
+    margin-top: 100px;
+}
+
+.testimonialTopPart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.testimonialTopLeftSide{
+    width: 75%;
+}
+
+.testimonialTopLeftSide h3{
+    display: inline-block;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonialTopLeftSide h2{
+    margin-top: 8px;
+    font-size: 54px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.testimonialBottomPart{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonialBottomLeftSide{
+    margin-right: 100px;
+}
+
+.testimonialBottomLeftSide img{
+    width: 400px;
+    filter: grayscale(100);
+}
+
+.testimonialBottomRightSide p{
+    margin-top: 15px;
+    margin-bottom: 90px;
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.testimonialNameButton{
+    display: flex;
+    margin-top: 125px;
+}
+
+.testimonialName h5{
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-left: 8px;
+}
+
+.testimonialName p{
+    display: inline;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.testimonialButton{
+    margin-left: 350px;
+}
+.testimonialButton button{
+    color: white;
+    background-color: black;
+    font-size: 1.8rem;
+    padding: 4px 10px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.testimonial2{
+    margin-bottom: 120px;
+}
+
+/* FAQ */
+
+.faq{
+    background-color: black;
+    padding-bottom: 190px;
+}
+
+.faq h4{
+    padding-top: 60px;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    font-size: 22px;
+    text-align: center;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.faqBody{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.faqBodyLeft, .faqBodyRight{
+    margin: 30px;
+}
+
+.faqBodyLeft summary, .faqBodyRight summary{
+    display: block;
+    cursor: pointer;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.faqBodyLeft p, .faqBodyRight p{
+    color: #b0adad;
+    margin-left: 32px;
+}
+
+.down1{
+    margin-left: 80px;
+}
+
+.down2{
+    margin-left: 241px;
+}
+
+.down3{
+    margin-left: 150px;
+}
+
+.down4{
+    margin-left: 45px;
+}
+
+.down5{
+    margin-left: 230px;
+}
+
+.down6{
+    margin-left: 131px;
+}
+
+.down7{
+    margin-left: 67px;
+}
+
+.down8{
+    margin-left: 45px;
+}
+
+/* Contact */
+
+.contact{
+    background-color: black;
+    color: white;
+    padding-left: 200px;
+}
+
+.contact h2{
+    font-size: 44px;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 60px;
+}
+
+.contact h3{
+    display: inline;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 30px;
+}
+
+
+.contactBody{
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+
+.contactBody2{
+    margin-left: 100px;
+}
+
+.contactBody1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.contactBody1 span{
+    font-size: 0.5rem;
+    color: #ff5e69;
+}
+
+.contactBody1 p{
+    margin-left: -2px;
+    color: #b0adad;
+    font-size: 0.8rem;
+    padding-top: 8px;
+}
+
+.contactBody1 p a{
+    padding-top: 8px;
+    font-size: 0.8rem;
+    color: #b0adad;
+    font-weight: bold;
+}
+
+.contactBody2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactBody2 li{
+    margin-top: 12px;
+    list-style: none;
+}
+
+/* Footer */
+
+.footer{
+    color: #8a95ad;
+    background-color: black;
+    padding-left: 190px;
+    padding-bottom: 22px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #8a95ad;
+}
+
+.footer a:hover{
+    color: white;
+}
